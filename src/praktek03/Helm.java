@@ -5,6 +5,12 @@ public class Helm {
     String warna;
     double harga;
     double beli;
+
+    public Helm() {
+        harga= 300;
+        beli= 2;
+    }
+    
     void cetakInfo(){
         System.out.println("=====================");
         System.out.println("merk : "+merk);
