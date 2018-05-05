@@ -17,4 +17,8 @@ public class Helm {
         jumlah=harga*beli;
         return jumlah;
     }
+    
+    void cetakjumlah(){
+        System.out.println("jumlahnya adalah: "+hitungjumlah());
+    }
 }
