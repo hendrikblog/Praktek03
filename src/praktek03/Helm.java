@@ -9,6 +9,13 @@ public class Helm {
     public Helm() {
         harga= 300;
         beli= 2;
+        
+        
+    }
+
+    public Helm(double harga, double beli) {
+        this.harga = harga;
+        this.beli = beli;
     }
     
     void cetakInfo(){

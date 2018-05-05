@@ -12,6 +12,11 @@ public class HelmAksi {
         System.out.println("jumlah Helm = "+h1.hitungjumlah());
         h1.cetakjumlah();
         
+        Helm r2 = new Helm();
+        r2.cetakInfo();
+        
+        Helm r3 = new Helm(150,3);
+        r3.cetakInfo();
     }
  
 }
