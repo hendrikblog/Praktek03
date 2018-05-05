@@ -7,6 +7,8 @@ public class HelmAksi {
         h1.warna = "hitam";
         h1.harga = 200;
         
+        h1.cetakInfo();
+        
     }
  
 }
